@@ -1,0 +1,53 @@
+body{
+    background-color: crimson;
+}
+
+#container{
+    background-image:url('Screenshot_7.png');
+    width: 800px;
+    height: 450px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px black solid;
+    border-radius: 12px;
+}
+
+#Problem{
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: bisque;
+    font-size: 48px;
+    text-align: center;
+}
+
+#Level{
+    grid-column: 3/4;
+    grid-row: 1;
+    background-color: grey;
+}
+
+#Answer{
+    grid-column: 2/3;
+    grid-row: 2;
+    background-color: aqua;
+}
+
+#Feedback{
+    grid-column: 2/3;
+    grid-row: 3;
+    background-color: yellow;
+}
+
+#Score{
+    grid-column: 3/4;
+    grid-row: 2;
+    background-color: fuchsia;
+}
+
+#Place{
+    grid-column: 3/3;
+    grid-row: 3;
+    background-color: black;
+}
